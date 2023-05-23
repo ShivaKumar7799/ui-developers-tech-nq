@@ -1,0 +1,75 @@
+p{
+  color: blue;
+}
+
+#SelectById{
+  color: orange;
+}
+
+.SelectByClass{
+  color: gray;
+}
+
+h1{
+  color: green;
+}
+
+h2{
+  color: brown;
+}
+
+/* #para1{
+  color: violet;
+}
+
+#para2{
+  color: violet;
+}
+
+#para3{
+  color: violet;
+} */
+
+/* group selector  */
+#para1, #para2, #para3{
+  color: violet;
+}
+
+/* universal selector */
+
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.first{
+  color: red;
+}
+.second{
+  color: blue;
+}
+
+/* child selectors */
+
+#firstList > li:nth-child(odd){
+  color: red;
+}
+
+#firstList > li:nth-child(even){
+  color: blue;
+}
+
+#secondList li:first-child{
+  color: green;
+}
+
+#secondList li:last-child{
+  color: yellow;
+}
+
+#secondList li:nth-child(7){
+  color: red;
+}
+
+#secondList li:nth-last-child(4){
+  color: pink;
+}

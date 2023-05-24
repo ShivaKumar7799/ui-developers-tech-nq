@@ -1,0 +1,39 @@
+#firstPara{
+  color: white;
+  background-color: black;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+  margin: 30px;
+}
+
+h1{
+  color: blue;
+  text-shadow: 5px 5px 3px red;
+  text-align: center;
+}
+
+#firstPara span{
+  text-decoration: underline;
+  color: red;
+  font-weight: 700;
+}
+
+#secondPara{
+  border: 5px solid blue;
+  padding: 20px;
+  text-transform: capitalize; 
+   /* uppercase lowercase */
+   text-indent: 120px;
+   line-height: 2;
+   word-spacing: 10px;
+   letter-spacing: 3px;
+   /* white-space: nowrap; */
+   text-decoration: underline;
+   border-radius: 20px;
+   opacity: 0.95;
+}
+
+a{
+  text-decoration: none;
+}

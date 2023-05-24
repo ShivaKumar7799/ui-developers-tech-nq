@@ -73,3 +73,32 @@ h2{
 #secondList li:nth-last-child(4){
   color: pink;
 }
+
+#firstLetter::first-letter{
+  color: darkorange;
+  font-size: 40px;
+}
+
+/* pseudo selectors  */
+
+#hovering:hover{
+  color: green;
+  background-color: black;
+}
+
+#userName:focus{
+  border : 3px solid green;
+  outline: none;
+}
+
+.paraTwo{
+  color : fuchsia;
+}
+
+.paraOne{
+  color: brown;
+}
+
+.paraOne.paraTwo{
+  color: greenyellow;
+}

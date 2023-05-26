@@ -1,0 +1,45 @@
+#parent{
+  background-color: green; 
+  display: flex;
+  flex-direction: row;
+  /* height: 200px; */
+  align-items: center; 
+  justify-content: start;
+  /* gap :20px; */
+  /* justify-content: space-evenly;   */
+  /* flex-wrap : wrap; */
+}
+
+/* flex-direction properties :
+row, row-revers, column, column-reverse */
+
+/* justify-content properties:
+start, center, end, space-betwee, space-around, space-evenly */
+
+/* 
+align-items properties
+start, center, end  */
+
+.box{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+}
+
+/* flex-wrap  */
+
+/* flex-grow, flex-shrink, flex-basis should always apply to child blocks  */
+
+.second{
+  flex-grow: 1;
+  flex-shrink: 2;
+}
+
+.third{
+  flex-grow: 1;
+}
+
+.fourth{
+  flex-basis: 250px;
+}

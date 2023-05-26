@@ -1,0 +1,40 @@
+#translate{
+  background-color: red;
+  color: white;
+  width: max-content;
+  padding: 10px;
+  /* transform: translateX(20px); */
+  /* transform: translateY(50px); */
+  transform: translate(200px,100px);
+}
+
+#scale{
+  background-color: green;
+  color: white;
+  width: max-content;
+  padding: 10px;
+  margin: 0px auto;
+  /* transform: scaleX(2); */
+  /* transform: scaleY(2); */
+  transform: scale(2,0.8);
+}
+
+#rotate{
+  background-color: black;
+  color: white;
+  width: max-content;
+  font-size : 40px;
+  padding: 10px;
+  transform: rotate(-45deg);
+}
+
+#skew{
+  background-color: blue;
+  color: white;
+  width: max-content;
+  padding: 10px 50px;
+  margin: 0px auto;
+  /* transform: skewX(-45deg); */
+  /* transform: skewY(-15deg); */
+  transform: skew(-30deg,-15deg);
+}
